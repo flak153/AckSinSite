@@ -1,0 +1,28 @@
+{{ if .Site.Params.banner.enable }}
+{{"<!-- Welcome Slider-->" | safeHTML}}
+<section class="hero-area" style='background: -webkit-canvas(squares);'>
+    
+    <div class="block">
+        <!-- <div class="video-button">
+           {{with .Site.Params.banner.icon}} <i class="{{ . }}"></i> {{ end }}
+        </div> -->
+       {{with .Site.Params.banner.heading}} <h1>{{ . }}</h1>{{ end }}
+       {{with .Site.Params.banner.content}} <p>{{ . }}</p> {{ end }}
+       {{ if .Site.Params.banner.btn}}
+        <a data-scroll href="{{ .Site.Params.banner.btnURL}}" class="btn btn-transparent">{{ .Site.Params.banner.btnText}}</a>
+        {{ end }}
+    </div>
+</section>
+<script type="application/x-javascript">
+    function draw(w, h) {
+     var ctx = document.getCSSCanvasContext("2d", "squares", w, h);
+    
+     ctx.fillStyle = "rgb(200,0,0)";
+     ctx.fillRect (10, 10, 55, 50);
+    
+     ctx.fillStyle = "rgba(0, 0, 200, 0.5)";
+     ctx.fillRect (30, 30, 55, 50);
+    }
+     </script>
+{{"<!-- /Welcome Slider-->" | safeHTML}}
+{{end}}

@@ -3,13 +3,14 @@ heading : About
 headingSpan : Us
 aboutItem : 
 - icon : tf-tools
-  title : We're Creative
-  content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
-
+  title : Collaborate
+  content : We are in this together from the start. Our clients are lifelong partners and friends who can rely on our abilities. 
 - icon : tf-strategy
-  title : We're Professional
-  content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+  title : Communicate
+  content : Open dialouge is our top priority. Over communication is a problem that we are proud of as we listen to your needs.  
 
 - icon : tf-anchor2
-  title : We're Genius
-  content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+  title : Execute
+  content : Some firms like to talk. We don't just walk, we like to roll up our sleeves and get things done on time, under budget. 
+
+  

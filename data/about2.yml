@@ -1,13 +1,12 @@
 enable : true
 image : images/about/about-business-man.jpg
-title : We’re A Digital Design Agency.
-description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi.
-description2 : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi.
+title : We’re Human Centric Developers
+description : Build for the people who use your products.  of your users will never open a command terminal. Our method begins and ends with user expirence design in mind to make sure we get things right the first time. In today's energized world, the attention span of your users is ever shrinking. We test every component of our applications to ensure usability and simplicity of our products.   
 aboutItem : 
   - icon : tf-circle-compass
-    title : SEO Optimized
-    content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+    title : SEO Optimization
+    content : It can be difficult to predict how people will search for your type of business. We take a wholistic approach in discovering proper keywords to connect the dots. 
     
   - icon : tf-hotairballoon
-    title : Easy Customization
-    content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+    title : Usability
+    content : "We have one rule of thumb: Keep it so simple, that our grandmother's can use it. That is how we ensure that your team has the best experience possible"

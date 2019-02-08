@@ -67,9 +67,9 @@ custom_js = ["js/custom.js"]
     # call to action
     [params.cta]
     enable = true
-    title = "Great Design & Incredible Features"
-    content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
-    btnURL = "#"
+    title = "Fast & Flexible Service"
+    content = "We are a full service consultancy, providing end-to-end project management for our clients"
+    btnURL = "/#contact-us"
     btnText = "Start a project with us"
 
     # counter

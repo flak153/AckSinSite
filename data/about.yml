@@ -1,6 +1,6 @@
 enable : true
-heading : About
-headingSpan : Us
+heading : Our
+headingSpan : Method
 aboutItem : 
 - icon : tf-tools
   title : Collaborate

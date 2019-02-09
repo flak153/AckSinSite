@@ -2,31 +2,23 @@ enable : true
 heading : Our
 headingSpan : Team
 teamMember :
-  - image : images/team/team-1.jpg
+  - image : images/team/Will_headshot.JPG
     name : Will Seggos
     designation : CEO/Founder
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    description : A former Franchise Account Executive at Yelp, Will is an expert in digital marketing. He has taken on numerous e-commerce projects and is a published tech blogger in Hacker Noon. 
     socialIcon :
-      - icon : tf-ion-social-facebook
-        url : "#"
-      - icon : tf-ion-social-twitter
-        url : "#"
       - icon : tf-ion-social-linkedin
-        url : "#"
-      - icon : tf-ion-social-dribbble-outline
+        url : "https://www.linkedin.com/in/will-seggos-448b0b6b/"
+      - icon : tf-ion-social-hackernews
         url : "#"
       
-  - image : images/team/team-2.jpg
+  - image : images/team/flak_headshot.JPG
     name : Mohammed Ali
     designation : CTO
-    description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+    description : Mohammed is a seasoned full stack developer. He has worked on a number of projects for startups, corporate organizations, and governemnt entities. He is also a 3x hackathon winner. 
     socialIcon :
-      - icon : tf-ion-social-facebook
-        url : "#"
-      - icon : tf-ion-social-twitter
-        url : "#"
       - icon : tf-ion-social-linkedin
-        url : "#"
-      - icon : tf-ion-social-dribbble-outline
-        url : "#"
+        url : "https://www.linkedin.com/in/flak153/"
+      - icon : tf-ion-social-github
+        url : "https://github.com/flak153"
       

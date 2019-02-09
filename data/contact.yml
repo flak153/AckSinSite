@@ -2,16 +2,20 @@ enable : true
 heading : Get In
 headingSpan : Touch
 title : Contact Details
-content : We are available to meet in person. 
-mapLatitude : 40.743825
-mapLongitude: -73.985007
+content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero, provident, eum eligendi blanditiis ex explicabo vitae nostrum facilis asperiores dolorem illo officiis ratione vel fugiat dicta laboriosam labore adipisci.
+enable_maps : false
+mapLatitude : 51.5223477
+mapLongitude: -0.1622023
 contactDetails :
   - icon : tf-map-pin
-    info : "29 E 28th St. New York, NY 10016"
+    info : "Khaja Road, Bayzid, Chittagong, Bangladesh"
     
   - icon : tf-ion-ios-telephone-outline
-    info : "Phone: +(917) 994-0420"
+    info : "Phone: +880-31-000-000"
+    
+  - icon : tf-ion-iphone
+    info : "Fax: +880-31-000-000"
     
   - icon : tf-ion-ios-email-outline
-    info : "Email: info@ackfin.com"
+    info : "Email: hello@meghna.com"
     

@@ -1,7 +1,7 @@
 {{ if .Site.Params.banner.enable }}
 {{"<!-- Welcome Slider-->" | safeHTML}}
-<section class="hero-area" style='background: -webkit-canvas(squares);'>
-    
+<section class="hero-area">
+    <canvas id="canvas" style="position: absolute; width: 100%; height: 100%" width=1920 height=1080></canvas>
     <div class="block">
         <!-- <div class="video-button">
            {{with .Site.Params.banner.icon}} <i class="{{ . }}"></i> {{ end }}
@@ -14,7 +14,49 @@
         {{ end }}
     </div>
 </section>
+<script>
 
+    var context = document.getElementById("canvas").getContext('2d', { alpha: false });
+
+    startAnimating(60);
+
+    function startAnimating(fps) {
+        fpsInterval = 20;
+        then = Date.now();
+        startTime = then;
+        console.log(startTime);
+        window.requestAnimationFrame(animate);
+    }
+
+
+
+    function R(r, g, b, a) {
+        a = a === undefined ? 1 : a;
+        return `rgba(${r | 0},${g | 0},${b | 0},${a})`;
+    }
+
+    function draw(timestamp) {
+
+        context.font = "5vh x";
+        x = context;
+        t = timestamp/2000;
+        m= 32 || 0;
+        for (j = 35; j--; ) {
+            for (i = 64; i--; ) {
+                var foo = ((t * m + (i ^ (t * m - j))) % 99) * 2
+
+                x.fillText("◢◣◤◥"[(Math.random() * 4) | 0], i * m, j * m),
+                    (x.fillStyle = R(0,foo,foo));
+            }
+        }
+    }
+    function animate(timestamp) {
+        requestAnimationFrame(animate);
+        draw(timestamp);
+    }
+
+
+</script>
 
 {{"<!-- /Welcome Slider-->" | safeHTML}}
 {{end}}

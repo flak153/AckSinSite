@@ -66,7 +66,7 @@ custom_js = ["js/custom.js"]
 
     # call to action
     [params.cta]
-    enable = true
+    enable = false
     title = "Fast & Flexible Service"
     content = "We are a full service consultancy, providing end-to-end project management for our clients"
     btnURL = "/#contact-us"
@@ -74,7 +74,7 @@ custom_js = ["js/custom.js"]
 
     # counter
     [params.counter]
-    enable = true
+    enable = false
     bgImage = "images/backgrounds/bg-1.jpg"
         [[params.counter.counterItem]]
         title = "Happy Clients"

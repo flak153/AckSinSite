@@ -1,0 +1,94 @@
+.service-block{
+    background-color: #6CB670
+}
+
+article{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+p{
+    font-size: 12px;
+}
+
+/* ---- reset ---- */
+
+body {
+    margin: 0;
+    font:normal 100% Arial, Helvetica, sans-serif;
+  }
+  
+  canvas {
+    display: block;
+    vertical-align: bottom;
+  }
+  
+.hero-area{
+    background: #b61924;
+}
+  /* ---- particles.js container ---- */
+  
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #b61924;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  /* ---- stats.js ---- */
+  
+  .count-particles{
+    background: #000022;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 80px;
+    color: #13E8E9;
+    font-size: .8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+  }
+  
+  .js-count-particles{
+    font-size: 1.1em;
+  }
+  
+  #stats,
+  .count-particles{
+    -webkit-user-select: none;
+  }
+  
+  #stats{
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+  }
+  
+  .count-particles{
+    border-radius: 0 0 3px 3px;
+  }
+
+  #contact-us:target {
+    display: block;
+    position: relative;
+    top: -120px; 
+    visibility: hidden;
+  }
+  
+.offset:before { 
+ display: block; 
+ content: " "; 
+   height: 150px;      /* Give height of your fixed element */
+        margin-top: -150px; /* Give negative margin of your fixed element */   
+        visibility: hidden; 
+}

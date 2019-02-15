@@ -1,5 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
+publishDir = "docs"
 title = "AckSin | Modern Web Development"
 theme = "meghna"
 

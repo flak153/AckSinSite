@@ -4,8 +4,6 @@ headingSpan : Works
 filterList :
   - filterType : merchendise
     filterTitle : Merchendise
-
-  - filterType: 
     
   - filterType : design
     filterTitle : Design

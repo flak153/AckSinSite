@@ -2,7 +2,7 @@ baseURL = "https://flak153.github.io/BlueGlass.nyc/"
 
 languageCode = "en-us"
 publishDir = "docs"
-title = "AckSin | Modern Web Development"
+title = "BlueGlass | Modern Web Development"
 theme = "meghna"
 
 # Menu
@@ -17,10 +17,10 @@ theme = "meghna"
     URL = "services"
     weight = 3
 
-    [[menu.nav]]
-    name = "Portfolio"
-    URL = "portfolio"
-    weight = 4
+#    [[menu.nav]]
+#    name = "Portfolio"
+#    URL = "portfolio"
+#    weight = 4
 
     [[menu.nav]]
     name = "Team"

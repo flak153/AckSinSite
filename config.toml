@@ -1,4 +1,5 @@
-baseURL = "http://example.org/"
+baseURL = "https://flak153.github.io/BlueGlass.nyc/"
+
 languageCode = "en-us"
 publishDir = "docs"
 title = "AckSin | Modern Web Development"

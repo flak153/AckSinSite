@@ -26,7 +26,11 @@ canvas {
     display: block;
     vertical-align: bottom;
 }
-  
+
+.preloader{
+    display: none !important;
+}
+
 .hero-area{
     background: #b61924;
 }

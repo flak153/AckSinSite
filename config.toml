@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://blueglass.nyc/"
 
 languageCode = "en-us"
 publishDir = "docs"

@@ -1,4 +1,4 @@
-baseURL = "https://flak153.github.io/BlueGlass.nyc/"
+baseURL = "https://blueglass.nyc/"
 
 languageCode = "en-us"
 publishDir = "docs"
